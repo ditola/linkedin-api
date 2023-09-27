@@ -12,3 +12,6 @@ if credentials:
         "ACoAABQ11fIBQLGQbB1V1XPBZJsRwfK5r1U2Rzw"
     )
     connections = linkedin.get_profile_connections(profile["profile_id"])
+    
+    print(profile)
+    print(connections)
